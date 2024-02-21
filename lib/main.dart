@@ -1,6 +1,6 @@
 import 'dart:io';
 
-double calculateSum(numbers) {
+double calculateSum(var numbers) {
   double sum = 0;
   for (double number in numbers) {
     sum += number;
